@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="tutto">
+        <div class="sinistra">
+            <div class="titolo-s">
+                <div>
+                    <p>
+                        To do List v1.0
+                    </p>
+                </div>
+
+                <div class="input-s-c">
+                    <div class="input-s">
+                        <svg xmlns="http://www.w3.org/2000/svg" style='fill: #808080; margin: 2px;' height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z"/></svg>                      
+                        <input type="text" class="input-2" placeholder='Search' id="cerca" required>
+                    </div>    
+                </div>
+                <div>
+                    <p class="favorites">
+                        Favorites
+                    </p>
+                </div>
+
+                <div>
+                    <div class="lista-s">
+                        <svg xmlns="http://www.w3.org/2000/svg" style='fill: #67a9fd' height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M349.4 44.6c5.9-13.7 1.5-29.7-10.6-38.5s-28.6-8-39.9 1.8l-256 224c-10 8.8-13.6 22.9-8.9 35.3S50.7 288 64 288H175.5L98.6 467.4c-5.9 13.7-1.5 29.7 10.6 38.5s28.6 8 39.9-1.8l256-224c10-8.8 13.6-22.9 8.9-35.3s-16.6-20.7-30-20.7H272.5L349.4 44.6z"/></svg>
+                        <p>
+                            My day
+                        </p>
+                    </div>
+
+                    <div class="lista-s">
+                        <svg xmlns="http://www.w3.org/2000/svg" style='fill: #67a9fd' height="0.9em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zm0-384c13.3 0 24 10.7 24 24V264c0 13.3-10.7 24-24 24s-24-10.7-24-24V152c0-13.3 10.7-24 24-24zM224 352a32 32 0 1 1 64 0 32 32 0 1 1 -64 0z"/></svg>
+                        <p>
+                            Important
+                        </p>
+                    </div>
+
+                    <div class="lista-s">
+                        <svg xmlns="http://www.w3.org/2000/svg" style='fill: #67a9fd' height="0.9em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M399 384.2C376.9 345.8 335.4 320 288 320H224c-47.4 0-88.9 25.8-111 64.2c35.2 39.2 86.2 63.8 143 63.8s107.8-24.7 143-63.8zM0 256a256 256 0 1 1 512 0A256 256 0 1 1 0 256zm256 16a72 72 0 1 0 0-144 72 72 0 1 0 0 144z"/></svg>                        
+                        <p>
+                            Personal
+                        </p>
+                    </div>
+
+                    <div class="lista-s">
+                        <svg xmlns="http://www.w3.org/2000/svg" style='fill: #67a9fd' height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M384 96V224H256V96H384zm0 192V416H256V288H384zM192 224H64V96H192V224zM64 288H192V416H64V288zM64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"/></svg>                        
+                        <p>   
+                            All
+                        </p>
+                    </div>
+
+                    <div class="lista-s">
+                        <svg xmlns="http://www.w3.org/2000/svg" style='fill: #67a9fd' height="0.9em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M256 512A256 256 0 1 0 256 0a256 256 0 1 0 0 512zM369 209L241 337c-9.4 9.4-24.6 9.4-33.9 0l-64-64c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l47 47L335 175c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9z"/></svg>                        
+                        <p>   
+                            Completed
+                        </p>
+                    </div>
+
+                    <div class="lista-s">
+                        <svg xmlns="http://www.w3.org/2000/svg" style='fill: #67a9fd' height="0.9em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M320 488c0 9.5-5.6 18.1-14.2 21.9s-18.8 2.3-25.8-4.1l-80-72c-5.1-4.6-7.9-11-7.9-17.8s2.9-13.3 7.9-17.8l80-72c7-6.3 17.2-7.9 25.8-4.1s14.2 12.4 14.2 21.9v40h16c35.3 0 64-28.7 64-64V153.3C371.7 141 352 112.8 352 80c0-44.2 35.8-80 80-80s80 35.8 80 80c0 32.8-19.7 61-48 73.3V320c0 70.7-57.3 128-128 128H320v40zM456 80a24 24 0 1 0 -48 0 24 24 0 1 0 48 0zM192 24c0-9.5 5.6-18.1 14.2-21.9s18.8-2.3 25.8 4.1l80 72c5.1 4.6 7.9 11 7.9 17.8s-2.9 13.3-7.9 17.8l-80 72c-7 6.3-17.2 7.9-25.8 4.1s-14.2-12.4-14.2-21.9V128H176c-35.3 0-64 28.7-64 64V358.7c28.3 12.3 48 40.5 48 73.3c0 44.2-35.8 80-80 80s-80-35.8-80-80c0-32.8 19.7-61 48-73.3V192c0-70.7 57.3-128 128-128h16V24zM56 432a24 24 0 1 0 48 0 24 24 0 1 0 -48 0z"/></svg>                        
+                        <p>   
+                            Assigned to me
+                        </p>
+                    </div>
+                </div>
+
+                <div class="linea-s">
+                </div>
+
+
+            </div>
+        </div>
+
+        <div class="centro">
+            <div class="top-c">
+                <div class="top-c-1">
+                    <p>Today List</p>
+                    <p id='mese'></p>
+                </div>
+                <div class="top-c-1">
+                    <button type="submit" class="new-b" id="submit">+ New Task</button>
+                    <button type="submit" class="new-b" id="submit2">- Delete</button>
+                </div>
+                
+            </div>
+            
+            
+    
+            <div class="centro2">
+                <div id="lista" class="lista2 mainl">
+                    
+                </div>
+            </div>
+
+        </div>
+
+        <div class="destra">
+            <div class="datepicker">
+                <div class="datepicker-top">
+                    <div class="btn-group">
+                        <button class="tag">Today</button>
+                        <button class="tag">Tomorrow</button>
+                        <button class="tag">In 2 days</button>
+                    </div>
+                    <div class="month-selector">
+                        <button class="arrow"><svg xmlns="http://www.w3.org/2000/svg" height="1em" style='fill: #67a9fd'viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M9.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L77.3 256 246.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z"/></svg></button>
+                        <span id='mese' class="month-name"></span>
+                        <button class="arrow"><svg xmlns="http://www.w3.org/2000/svg" style='fill: #67a9fd' height="1em" viewBox="0 0 320 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z"/></svg></button>
+                    </div>
+                </div>
+                <div class="datepicker-calendar">
+                    <span class="day">Mo</span>
+                    <span class="day">Tu</span>
+                    <span class="day">We</span>
+                    <span class="day">Th</span>
+                    <span class="day">Fr</span>
+                    <span class="day">Sa</span>
+                    <span class="day">Su</span>
+                    <button class="date faded">30</button>
+                    <button class="date">1</button>
+                    <button class="date">2</button>
+                    <button class="date">3</button>
+                    <button class="date">4</button>
+                    <button class="date">5</button>
+                    <button class="date">6</button>
+                    <button class="date">7</button>
+                    <button class="date">8</button>
+                    <button class="date">9</button>
+                    <button class="date">10</button>
+                    <button class="date">11</button>
+                    <button class="date">12</button>
+                    <button class="date">13</button>
+                    <button class="date">14</button>
+                    <button class="date">15</button>
+                    <button class="date">16</button>
+                    <button class="date">17</button>
+                    <button class="date">18</button>
+                    <button class="date">19</button>
+                    <button class="date">20</button>
+                    <button class="date">21</button>
+                    <button class="date">22</button>
+                    <button class="date">23</button>
+                    <button class="date">24</button>
+                    <button class="date">25</button>
+                    <button class="date">26</button>
+                    <button class="date">27</button>
+                    <button class="date">28</button>
+                    <button class="date">29</button>
+                    <button class="date">30</button>
+                    <button class="date">31</button>
+                    <button class="date faded">1</button>
+                    <button class="date faded">2</button>
+                    <button class="date faded">3</button>
+                </div>
+                <div class="task-d">
+                    Completed Task
+                </div>
+                <div id='compl' class="task-d">
+                    
+                </div>
+            </div>
+           
+        </div>
+
+    <dialog id="dialog">
+        <div class="chiudi">
+            <button type="submit" class="new-b" id="chiudi">X</button>
+        </div>
+        <div class="centro">
+            <form id="invia" class="form">
+                <label for="name">Enter something to do:</label>
+                <input type="text" class="input-1" id="name" required>
+                <button type="submit" class="new-b" >Submit</button>
+            </form>
+        </div>
+    </dialog>
+
+    <dialog id="dialog2">
+       
+        <div class="chiudi">
+            
+            <button type="submit" class="new-b2" id="delete">Delete</button>
+            <button type="submit" class="new-b" id="chiudi2">X</button>  
+        </div>
+        <div id='compl2' class="task-d2">
+                    
+        </div>
+    </dialog>
+
+    </div>
+        
+    <script>
+        const lista = document.getElementById("lista")
+        const compl = document.getElementById('compl')
+        const compl2 = document.getElementById('compl2')
+        const form = document.getElementById("invia")
+        console.log(localStorage.getItem("Lista"))
+        const listaDiTodo = []
+        if( localStorage.getItem("Lista") == null){
+            
+        }
+        else{
+            const lista1 = JSON.parse(localStorage.getItem("Lista"));
+            console.log(lista1)
+            lista1.forEach(element => {
+                listaDiTodo.push(element)
+            });
+        }
+        
+        form.addEventListener("submit", e => {input1(e)
+            dialog.remove()
+            location.reload()
+        })
+        
+        function input1(e) {
+            e.preventDefault()
+            
+            let textin = document.getElementById("name").value;
+            console.log(textin)
+            createtodo(false, Date.now(), textin, true)
+
+
+            
+
+            document.getElementById("name").value = ""
+            
+        }
+        listaDiTodo.sort((a,b)=> {
+            return a.data - b.data
+        } ).forEach(element => {
+            createtodo(element.check, element.data, element.textin)
+        });
+
+        function createtodo(check2, data3, textin2, elementocreato){
+            const div = document.createElement("div");
+            div.classList.add("lista")
+            const div2 = document.createElement("div");
+            div2.classList.add("lista2")
+            const div3 = document.createElement("div");
+            div3.classList.add("lista3")
+
+            const check = document.createElement('input')
+            check.type = 'checkbox';
+            check.checked = check2
+            check.classList.add("check")
+            check.id = data3
+            check.addEventListener("change", function(){
+                const arr1 = listaDiTodo.filter(e => data3 != e.data)
+                check2 = check.checked
+                const arr2 = [...arr1, {textin: textin2, data: data3, check: check2}]
+                const stringa = JSON.stringify(arr2)
+                localStorage.setItem("Lista", stringa)
+                
+                console.log(check2)
+                location.reload() 
+                
+            })
+            div2.appendChild(check);
+            
+
+            const p1 = document.createElement("p");
+            const text1 = document.createTextNode(textin2);
+            p1.classList.add("lista-n")
+            p1.appendChild(text1);
+            div2.appendChild(p1)
+            div.appendChild(div2);
+
+
+            const data = document.createElement('p')
+            
+            const date = new Date(data3);
+            const datafinale = (new Intl.DateTimeFormat('it-IT').format(date));
+            const data1 = document.createTextNode(datafinale)
+            data.classList.add("data")
+            div3.appendChild(data)
+            data.appendChild(data1)
+            div.appendChild(div3)
+
+            if (elementocreato){
+                const todoOgg = {textin: textin2, check: check.checked, data: Date.now()}
+                const array = [
+                todoOgg
+            ]
+            
+            listaDiTodo.push(todoOgg)
+            const stringa = JSON.stringify(listaDiTodo)
+            
+
+            console.log(listaDiTodo)
+            localStorage.setItem("Lista", stringa) 
+            
+            }
+
+            lista.appendChild(div);
+            const divspeciale = compl2.appendChild(div.cloneNode(true));
+            if(check.checked == true){
+                compl.appendChild(div.cloneNode(true));
+            }
+            const arrayspeciale = divspeciale.querySelectorAll('input');
+            const Arraynormalespeciale = Array.prototype.slice.call(arrayspeciale);
+            Arraynormalespeciale.forEach(element => {
+                element.checked = false
+            });
+
+        }
+
+        const date = new Date();
+        const today = date.getDate();
+        const currentYear = date.getFullYear();
+        
+        function getMonthName(monthNumber) {
+            const date = new Date();
+            const currentMonth = date.getMonth() + 1; 
+
+            
+            return date.toLocaleString('en-US', { month: 'long' });
+        }
+
+        const nomemese = getMonthName(1); 
+        document.getElementById("mese").innerHTML = nomemese + ' ' + currentYear
+        
+        const date1 = document.getElementsByClassName('date')
+        
+        const array = Array.prototype.slice.call(date1);
+        array.forEach(element => {
+            if (element.classList.contains("faded")) return
+
+            if (element.innerHTML == today){
+                element.classList.add('current-day')
+            } 
+        });
+
+        const dialog = document.getElementById('dialog')
+        const bottone = document.getElementById('submit')
+        const chiusura = document.getElementById('chiudi')
+
+        bottone.addEventListener("click", function(){
+            dialog.showModal()
+        })
+
+        chiusura.addEventListener("click", function(){
+            dialog.close()
+        })
+
+        const dialog2 = document.getElementById('dialog2')
+        const bottone2 = document.getElementById('submit2')
+        const chiusura2 = document.getElementById('chiudi2')
+
+        bottone2.addEventListener("click", function(){
+            dialog2.showModal()
+        })
+
+        chiusura2.addEventListener("click", function(){
+            dialog2.close()
+        })
+
+        const delete1 = document.getElementById('delete')
+        const listadelete = document.getElementById('compl2')
+        const divdelete2 = document.getElementById('compl2')
+        const arrayspeciale = divdelete2.querySelectorAll('input');
+        const Arraynormalespeciale = Array.prototype.slice.call(arrayspeciale);
+
+        delete1.addEventListener("click", function(){
+
+            const quellidaeliminare = Arraynormalespeciale.filter((x) => x.checked == true);
+            
+            
+            const arrayfinale = []
+
+            const arraylista = JSON.parse(localStorage.getItem('Lista'))
+            for (let i = 0; i < arraylista.length; i++) {
+                for (let a = 0; a < quellidaeliminare.length; a++){
+                    if (i == a){
+                        arrayfinale.push(quellidaeliminare[a].id)
+                        
+                    }
+                }
+            }
+            console.log(arrayfinale)
+            const Numeribrutti = arrayfinale.map(Number);
+            const arrayfinalevero = []
+
+            for (let i = 0; i < arraylista.length; i++) {
+                const filtro = Numeribrutti.includes(arraylista[i].data)
+                    if (filtro == false){
+                        arrayfinalevero.push(arraylista[i])
+                    }
+                
+            }
+                console.log(arrayfinalevero)
+                const stringafinale = JSON.stringify(arrayfinalevero)
+                localStorage.setItem("Lista", stringafinale)
+                location.reload() 
+        })
+        
+    </script>
+</body>
+</html>
